@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/fraunces-144pt-s000');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+:root {
+    --darkPurple: rgba(36, 5, 62, 1);
+    --eucaplyptus: rgba(68, 255, 161, 1);
+    --davysGrey:rgba(88, 77, 98, 1);
+    --ghostWhite: rgba(252, 248, 255, 1);
+    --white: rgba(255, 255, 255, 1);
+    --fraunces: 'Fraunces', serif;
+    --manrope: 'Manrope', sans-serif;
+}
+
+.button{
+    text-align: center;
+    margin: 70px;
+}
+.h1-text {
+    font-size: 80px;
+    color: var(--white);
+    font-family: var(--fraunces);
+    
+}
+
+h2 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h1, h2, h3 {
+    font-family: var(--fraunces);
+    font-weight: 600;
+}
+
+body {
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    background-color: var(--darkPurple);
+    width: auto;
+    padding-top: 40px;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 44px;
+    
+}
+
+.header-link {
+    color: var(--white);
+    border-bottom: 3px solid var(--eucaplyptus);
+    text-decoration: none;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-family: var(--manrope);
+    font-weight: bold;
+}
+
+.header-link:hover {
+    color: var(--eucaplyptus);
+}
+.tailored{
+    border-bottom: 3px solid var(--eucaplyptus);
+}
+.learn-more{
+    color: var(--darkPurple);
+    background-color: var(--eucaplyptus);
+    width: 161px;
+    height: 61px;
+    border: none;
+    font-family: var(--manrope);
+    font-weight: bold;
+    font-size: 18px;
+
+
+}
+.learn-more:hover{
+    border: 3px solid var(--eucaplyptus);
+    background-color: var(--darkPurple);
+    color: var(--eucaplyptus);
+    
+}
+.childcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.photo{
+    width: 767px;
+    height: 441px;
+}
