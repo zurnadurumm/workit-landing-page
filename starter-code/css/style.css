@@ -1,4 +1,5 @@
-@import url(//db.onlinewebfonts.com/c/2c38481447f52932e780d7793abe8022?family=Fraunces+144pt+S050);
+
+@import url('https://fonts.cdnfonts.com/css/fraunces-144pt-s000');
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 *,*::before,*::after{
     box-sizing: border-box;
@@ -11,7 +12,7 @@
     --davysGrey:rgba(88, 77, 98, 1);
     --ghostWhite: rgba(252, 248, 255, 1);
     --white: rgba(255, 255, 255, 1);
-    --fraunces: 'Fraunces', serif;
+    --fraunces: 'Fraunces 144pt S000', sans-serif;
     --manrope: 'Manrope', sans-serif;
 }
 
@@ -93,6 +94,7 @@ h1{
     position: relative;
     
     
+    
 
 }
 .oval{
@@ -105,11 +107,172 @@ h1{
     z-index: -1;
     transform: translateY(-86%)
 }
-.numbering-container{
+.parent{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-}.numbering-item{
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background: var(--ghostWhite);
+    margin-left: 100px;
+    margin-right:100px ;
+    
+    position: relative;
+   padding-top: 500px;
+   padding-bottom: 160px;
+   transform: translateY(-75%);
+    z-index: -2;
+}
+.number{
+    width: 56px;
+    height: 56px;
+    border: 1px solid var(--darkPurple);
+    border-radius: 50%;
+    font-family: var(--fraunces);
+    font-size: 24px;
+    color: var(--darkPurple);
+    padding: 4%;
+    font-family: var(--fraunces);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 56px;
+
+    
+    
+}
+h2{
+    font-family: var(--fraunces);
+    font-size: 32px;
+    margin-bottom: 28px;
+
+}
+.maintext{
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 400;
+    
+
+}
+.child{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.whiteoval{
+    height: 561px;
+    background: var(--ghostWhite);
+    border-radius: 531px / 61px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    z-index: -3;
+    bottom: 1202px;
+}
+
+.founder{
+    position: absolute;
+    background: var(--eucaplyptus);
+    width: 477px;
+    height: 477px;
+    border-radius: 50%;
+    border: 1px solid var(--eucaplyptus);
+    bottom: -1574px;
+    left: 163px;
+    
+
+}
+.rectangle{
+    position: absolute;
+width: 730px;
+height: 474.74px;
+left: 545px;
+top: 1950px;
+background: var(--darkPurple);
+
+}
+.bethefirst{
+    position: absolute;
+width: 451px;
+height: 64px;
+left: calc(50% - 451px/2 - 74.5px);
+top: calc(50% - 64px/2 - 141.37px);
+
+/* Heading M */
+
+font-family: var(--fraunces);
+font-size: 56px;
+line-height: 64px;
+/* identical to box height, or 114% */
+
+
+/* White */
+
+color: #FFFFFF;
+}
+.louis{
+    position: absolute;
+height: 96px;
+left: 8.77%;
+right: 8.77%;
+top: calc(50% - 96px/2 - 29.37px);
+
+/* Body */
+
+font-family: var(--manrope);
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+
+/* White */
+
+color: #FFFFFF;
+}
+.applyfor{
+position: absolute;
+left: 8.77%;
+right: 65.21%;
+top: 60.66%;
+bottom: 26.49%;
+border: 3px solid var(--eucaplyptus);
+background: var(--eucaplyptus);
+font-family: var(--manrope);
+font-size: 18px;
+font-weight: 700;
+color: var(--darkPurple);
+}
+.applyfor:hover{
+    position: absolute;
+left: 8.77%;
+right: 65.21%;
+top: 60.66%;
+bottom: 26.49%;
+border: 3px solid var(--eucaplyptus);
+background: var(--darkPurple);
+font-family: var(--manrope);
+font-size: 18px;
+font-weight: 700;
+color: var(--eucaplyptus);
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    width: 110px;
+    position: relative;
+    left: 46%;
+    
+
+}
+footer{
+    text-align: center;
+
+}
+.logo-dark{
+    margin-bottom: 57px;
 }
