@@ -131,7 +131,7 @@ h1{
     font-family: var(--fraunces);
     font-size: 24px;
     color: var(--darkPurple);
-    padding: 4%;
+    padding: 2%;
     font-family: var(--fraunces);
     font-size: 24px;
     font-weight: 600;
@@ -269,10 +269,16 @@ color: var(--eucaplyptus);
     
 
 }
+svg path{
+    fill: var(--davysGrey);
+}
+svg:hover path{
+    fill: var(--darkPurple);
+}
 footer{
     text-align: center;
 
 }
 .logo-dark{
-    margin-bottom: 57px;
+    margin-bottom: 3.5625em;
 }
