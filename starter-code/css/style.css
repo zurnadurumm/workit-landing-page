@@ -39,6 +39,7 @@
     background-color: var(--darkPurple);
     color: white;
     padding: 3px;
+    cursor: pointer;
 
 }
 .button:hover{
@@ -77,6 +78,7 @@ h1{
     height: 55px;
     color: var(--darkPurple);
     background-color: var(--eucaplyptus);
+    cursor: pointer;
 }
 .learn-more:hover{
     background-color: var(--darkPurple);
@@ -243,6 +245,7 @@ font-family: var(--manrope);
 font-size: 18px;
 font-weight: 700;
 color: var(--darkPurple);
+cursor: pointer;
 }
 .applyfor:hover{
     position: absolute;
